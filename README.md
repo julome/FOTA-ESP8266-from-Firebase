@@ -3,7 +3,9 @@ Self-updating OTA firmware for ESP8266 from Firebase
 With this script you will be able to self-update all your ESP8266 in your red from Firebase Storage
 
 Steps:
+
 1- Configure a Storage Firebase server as public access.
+
  -Rules:
   service firebase.storage {
     match /b/{bucket}/o {
