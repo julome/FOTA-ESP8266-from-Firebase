@@ -28,5 +28,5 @@ Steps:
    
 5- You wiil have to charge fwVersionURL const with the https addres of your version.txt file and charge fwImageURL const with https address of your update.bin file.
 
-Enjoy!!!
+Enjoy!!
 
