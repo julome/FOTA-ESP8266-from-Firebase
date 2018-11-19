@@ -16,12 +16,12 @@ you need fingerptint Firebase from https://www.grc.com/fingerprints.htm (paste v
 #include <ESP8266WiFi.h>
 
 const char* fingerprint = "F4:1C:FC:1D:D4:14:AD:18:9C:5D:26:EF:44:07:CA:77:BE:2F:C4:5B"; //Catch with https://www.grc.com/fingerprints.htm
-const char* fwVersionURL = "https://firebasestorage.googleapis.com/xxxxxxx/version.txt";
-const char* fwImageURL = "https://firebasestorage.googleapis.com/v0/b/xxxxxx/update.bin";
+const char* fwVersionURL = "https://firebasestorage.googleapis.com/xxxxxxx/version.txt";  //URL address for version.txt from Firebase
+const char* fwImageURL = "https://firebasestorage.googleapis.com/v0/b/xxxxxx/update.bin";  //URL address for update.txt from Firebase
 
-const int FW_VERSION = 1007;                              //New Firmware version
+const int FW_VERSION = 1007;                     //New Firmware version
 const char* ssid = "SSID";                       //SSID RED
-const char* password = "password";                        //Password RED
+const char* password = "password";               //Password RED
 
 void checkForUpdates() {      // FOTA Function
   
